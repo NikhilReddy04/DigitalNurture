@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "This is the content of file2.txt" > file2.txt
+git add file2.txt
+git commit -m "Add file2.txt with initial content"
+
+echo "Additional content for file1.txt" >> file1.txt
+git add file1.txt
+git commit -m "Update file1.txt with additional content"
+
+git status
+git diff
