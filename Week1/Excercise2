@@ -1,0 +1,5 @@
+#!/bin/bash
+git clone https://github.com/NikhilReddy04/BasicCommentsApp.git
+cd repo
+git log --oneline
+git show <commit_hash>
