@@ -1,0 +1,2 @@
+git remote add origin https://github.com/NikhilReddy04/BasicCommentsApp.git
+git push origin main
